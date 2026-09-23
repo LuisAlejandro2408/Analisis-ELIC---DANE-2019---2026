@@ -14,7 +14,7 @@ Análisis espacial y exploratorio de las Licencias de Construcción (ELIC) del D
 
 ---
 
-## 📌 Pregunta Clave de Negocio
+## 📌 Pregunta Clave del Proyecto
 > *¿Cómo se distribuyen geográficamente las licencias de construcción aprobadas en los departamentos y municipios de Colombia, qué revela la relación VIS / No VIS sobre la oferta de vivienda social por región, y qué destinos de construcción predominan en cada zona del país?*
 
 ---
