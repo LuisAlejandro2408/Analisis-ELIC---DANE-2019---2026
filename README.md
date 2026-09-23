@@ -64,10 +64,12 @@ A partir de enero de 2019, el DANE amplió su cobertura a más de **1.000 munici
 
 ## 📁 Estructura del Repositorio
 
+## 📁 Estructura del Repositorio
+
 ```text
 .
-├── elic_analisis_colombia.ipynb   # Notebook principal de Jupyter (ETL y análisis exploratorio)
-├── elic_clean.csv                # Dataset limpio y procesado (serie completa)
-├── elic_clean_cobertura1000.csv  # Dataset filtrado (cobertura ampliada 2019-2026)
-├── queries.sql                   # Consultas SQL ejecutadas en PostgreSQL
-└── README.md                     # Descripción del proyecto
+├── elic_dane.ipynb          # Notebook de Jupyter con la extracción (ETL), procesamiento y análisis exploratorio
+├── consultas_dane_elic.sql  # Consultas SQL ejecutadas en PostgreSQL para el análisis de datos
+├── ELIC_DANE.pbix           # Archivo fuente del Dashboard interactivo en Power BI
+├── ELIC_DANE.pdf            # Exportación en PDF del reporte de Power BI
+└── README.md                # Documentación del proyecto
