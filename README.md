@@ -17,7 +17,7 @@
 
 ---
 
-## 📝 Descripción del Proyecto
+## Descripción del Proyecto
 
 La **Estadística de Licencias de Construcción (ELIC)** es la operación oficial realizada mensualmente por el **DANE** en Colombia. Registra el área ($m^2$) y el número de unidades de vivienda formalmente aprobadas por curadurías urbanas y oficinas de planeación municipal. 
 
@@ -27,7 +27,7 @@ A partir de enero de 2019, el DANE amplió su cobertura a más de **1.000 munici
 
 ---
 
-## 🛠️ Tecnologías y Herramientas Utilizadas
+## Tecnologías y Herramientas Utilizadas
 
 * **Python & Pandas:** Extracción de datos vía API/Excel, decodificación de variables categóricas, estandarización de códigos DIVIPOLA y tratamiento de coberturas históricas.
 * **PostgreSQL & SQL:** Modelamiento relacional (Tablas de Hechos y Dimensiones) y consultas analíticas agregadas (`JOIN`, `GROUP BY`, funciones de ventana `OVER(PARTITION BY)`).
@@ -35,7 +35,7 @@ A partir de enero de 2019, el DANE amplió su cobertura a más de **1.000 munici
 
 ---
 
-## ⚙️ Flujo del Proyecto (Metodología)
+## Flujo del Proyecto (Metodología)
 
 1. **Preguntar:** Definición de preguntas clave y stakeholders del sector (DANE, analistas económicos, entidades territoriales).
 2. **Preparar:** Carga y validación del archivo de serie tipo base del DANE bajo el marco de calidad ROCCC.
@@ -59,8 +59,6 @@ A partir de enero de 2019, el DANE amplió su cobertura a más de **1.000 munici
    * La vivienda **No VIS** mantiene la mayor participación del mercado residencial, seguida por la vivienda **VIS**, mientras que la categoría **VIP** mantiene una representación marginal.
 
 ---
-
-## 📁 Estructura del Repositorio
 
 ## 📁 Estructura del Repositorio
 
